@@ -4,7 +4,7 @@ permalink: /summary/
 toc: true
 ---
 
-# Summary of Cogniti Empirical studies
+## Summary of Cogniti Empirical studies
 
 **Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)**
 
