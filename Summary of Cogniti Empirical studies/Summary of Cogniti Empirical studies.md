@@ -101,7 +101,7 @@ This work demonstrates that AI tools such as Cogniti can be used to develop agen
 
 [Full paper](https://openrepository.aut.ac.nz/items/beb56fa1-1011-4600-b78f-2182a926f238)
 
-## McHugh, Amy & Şahin, Elif. (2026). Harnessing Generative AI For Cultural Competence Training: Exploring The Possibilities.
+### McHugh, Amy & Şahin, Elif. (2026). Harnessing Generative AI For Cultural Competence Training: Exploring The Possibilities.
 
 **Abstract:**
 In this paper we share the findings from our pilot study evaluating the use of a generative AI agent designed to support users in exploring and deepening their understanding of racism and anti-racism. Our research question investigates whether such an agent can help mitigate some of the interpersonal and emotional challenges that often arise in anti-racism education. By offering a low-stakes, non- human interlocutor, the agent enables engagement with sensitive topics that individuals may otherwise avoid. In doing so, this research contributes to emerging scholarship on the role of AI in improving our uniquely human intelligence. This innovative application of AI is timely as the existing literature tends to examine AI applications related to productivity enhancement and content generation.
