@@ -27,6 +27,8 @@ Agents that guide students through reflective writing and self-assessment.
 
 - [An on-demand solution for scalable reflective tutoring using customised AI agents](summary/#chanane-2025)
   Chanane & Kuo (2025) · AAEE 2025
+- [Harnessing Generative Ai For Cultural Competence Training: Exploring The Possibilities.](HARNESSING%20GENERATIVE%20AI%20FOR%20CULTURAL%20COMPETENCE%20TRAINING:%20EXPLORING%20THE%20POSSIBILITIES.)
+  McHugh, Amy & Şahin, Elif. (2026). Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 ## Teaching approaches and techniques
 
