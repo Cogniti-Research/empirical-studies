@@ -6,7 +6,7 @@ toc: true
 
 ## Summary of Cogniti Empirical studies
 
-**Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)**
+### **Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)**
 
 **Overview**
 The emerging literature on educator-designed generative AI agents suggests considerable potential to extend learning support, facilitate active learning, and provide personalised feedback at scale. However, findings across the reviewed studies indicate that educational effectiveness depends less on the availability or technical sophistication of AI agents than on their pedagogical design and integration into learning activities. Although several studies report promising learning outcomes, the evidence remains uneven, with important tensions between pedagogical intentions and student behaviour.
