@@ -6,7 +6,7 @@ description: Published empirical studies on how educators use Cogniti AI agents 
 ---
 ## Summary of studies 
 
-[Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)(](Educator-designed%20generative%20AI%20agents%20in%20education:%20A%20synthesis%20of%20empirical%20Cogniti%20AI%20evidence%20(2024–2026)()
+[Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)(](Educator-designed%20generative%20AI%20agents%20in%20education:%20A%20synthesis%20of%20empirical%20Cogniti%20AI%20evidence%20(2024–2026)
 ## Admin use
 
 Agents that answer course and admin questions, a common starting point for institutions.
