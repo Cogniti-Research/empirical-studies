@@ -129,6 +129,26 @@ This paper explores how Scenario Based Learning \[SBL\] can be co-designed with 
 
 **ABSTRACT:** This study introduces and evaluates the Think–Pair–Chatbot–Share (TPCS) model, an adaptation of the traditional Think–Pair–Share (TPS) framework that integrates a generative AI (GenAI) chatbot to scaffold learning and provide feedback. We compared first-year chemistry students learning ionisation energy and atomic structure using traditional TPS versus the GenAI-facilitated TPCS model. Student responses from the think and share stages were analysed for accuracy and common errors, and engagement was examined via participation rates. For students who completed all stages, the GenAI-facilitated TPCS group produced a higher proportion of correct share-stage responses in three of the four tasks. However, the TPCS intervention was associated with lower overall participation, suggesting potential challenges in sustaining engagement in a GenAI-facilitated, multi-step activity. These findings provide early classroom-level evidence of AI-mediated TPS in tertiary chemistry education and highlight both its instructional potential and the need to address engagement barriers.
 
+**Methods & Implementation**
+
+- **Participants & Context:** Conducted in an international foundation chemistry course. It compared two cohorts across four tutorial tasks focused on ionization energy and atomic structure:
+    - **Traditional TPS Cohort (****N** **= 38):** Completed standard individual thinking, peer discussion, and shared reporting via Moodle without AI support.
+    - **Gen-AI TPCS Cohort (****N** **= 79):** Interacted with a custom AI chatbot built on the Cogniti platform using GPT-4o.
+- **Intervention Workflow:** In the TPCS condition, each task cycle proceeded through three mediated stages:
+    1. _Think:_ Students submitted an initial answer to the chatbot.
+    2. _Pair:_ The chatbot evaluated the answer, provided targeted scaffolding, generated a specific discussion question, and instructed students to discuss it verbally with a peer.
+    3. _Share:_ Students returned to the chatbot to submit a refined, final answer before receiving a model answer.
+
+---
+
+**Key Findings**
+
+- **Significant Accuracy Gains for Completers:** Among students who completed both the think and share stages, the TPCS group achieved a higher proportion of correct final answers than the traditional TPS cohort in three out of four tasks (e.g., Task 1: 64.3% vs. 28.9%; Task 2: 57.1% vs. 22.9%; Task 4: 32.4% vs. 6.5%).
+- **Consistent Reduction in Student Errors:** Analysis of all codable submissions showed that the mean number of errors per response consistently decreased from the think stage to the share stage in the TPCS group. In contrast, error rates in the traditional TPS group remained stable or increased, indicating that unstructured peer discussion alone was insufficient to resolve common misconceptions.
+- **The "Engagement Cost" of AI Scaffolding:** While participation in traditional TPS remained above 92% across all four tasks, participation in the TPCS cohort steadily declined from 100% in Task 1 down to 70.9% by Task 4. The authors attribute this drop to interface friction, cognitive fatigue, and the effort required to navigate multi-step AI interactions
+
+[Full paper](https://pubs.acs.org/doi/abs/10.1021/acs.jchemed.5c00438)
+
 ## Feedback to students
 
 ### Saravana, A., Lin, L., Tahmasebinia, F., & Sepasgozar, S. (2025). Artificial intelligence (AI) assisted feedback in civil engineering education. In Proceedings of the 36th Australasian Association for Engineering Education Annual Conference (AAEE 2025). Australasian Association for Engineering Education
@@ -153,11 +173,48 @@ CONCLUSIONS/RECOMMENDATIONS/SUMMARY
 
 The AI agents facilitated the provision of structured guidance, enabling markers to deliver well constructed feedback. The tool supported the consistency of feedback across the cohort by allowing for a standardised set of responses when multiple markers were involved in assessing. Additionally, this boosted educator confidence and promoted inclusivity in the marking process. We intentionally maintained human-only and AI-assisted paths to enable descriptive comparison; the resulting split usage reflects this design and real-world workflow choices, not a claim of superior efficiency. The contribution of this study is practical that design lessons learned for integrating AI into large cohort marking, including when the workflow adds value and why adoption stalls.
 
+[Full paper](https://search.informit.org/doi/abs/10.3316/informit.T2026031700008890703824358) 
 ### Goundar, P. R., & Li, H. (2026). Artificial intelligence in the evaluation of academic writing in higher education. _English Language Teaching_, _19_(4), 51–60. [https://doi.org/10.5539/elt.v19n4p51](https://doi.org/10.5539/elt.v19n4p51)
 
 **Abstract:**
 
 Academic writing is central to higher education, yet marking large cohorts of academic writing essays remains time-consuming. Assessors must align each essay with rubrics and provide detailed feedback, often under significant time constraints. This study examines whether artificial intelligence (AI) can streamline assessment of academic writing essays. Thirty first-year academic writing essays were assessed independently by an AI system and two experienced markers according to the Common European Framework of Reference for Languages (CEFR). The qualitative analysis involved comparing the nature and quality of AI-generated feedback and human markers, while the quantitative analysis compared the CEFR levels assigned by AI with those from the human markers. Findings show strong agreement between AI and human markers on surface-level errors (e.g., grammar and mechanics) but low agreement on CEFR proficiency classification. AI therefore appears well-suited for initial screening and formative commentary in large classes, while final proficiency judgements should remain with humans. The study contributes to debates on integrating AI in higher-education assessment by showing how AI can complement—not replace—human judgement, improving efficiency without sacrificing feedback quality. This exploratory study offers valuable insights; however, future research is warranted for deeper understanding of how AI can be integrated into higher-education assessment.
+
+**1. Context & Research Objective**
+
+- **Setting & Participants:** The study was conducted at Fiji National University (Lautoka campus) with 30 first-year undergraduate students (aged 18–42) enrolled in Bachelor of Secondary Education and Bachelor of Arts programs2.
+- **Writing Task:** Students completed a supervised, hand-written 200-word academic essay within one hour responding to the prompt: _"Discuss the impact of relationships between old and young people. Use examples to support your argument"_3.
+- **Core Objective:** The study explored the feasibility, alignment, and divergence of using a Generative AI chatbot to mark essays and provide feedback based on the **Common European Framework of Reference for Languages (CEFR)** compared to expert human markers45.
+
+**2. Marking Procedures & AI Setup**
+
+- **Human Rating:** Two expert assessors independently graded the 30 essays using CEFR descriptors6. Initial human inter-rater agreement reached **80%** (linear-weighted Cohen’s $\kappa = .72$, $p < .001$, indicating substantial agreement)6. Discrepancies in 6 essays were resolved through joint discussion6.
+- **AI Chatbot Design:** A custom chatbot was built on the **Cogniti** platform utilizing GPT-4, GPT-3.5, GPT-4o, and GPT-4 Turbo engines7. The prompt instructed the bot to act as an academic writing teacher, assigning a CEFR grade (A1–C2) and structuring feedback into three sections: **Content**, **Range and Accuracy**, and **One key improvement tip**78.
+
+**3. Quantitative Findings: Significant Grade Inflation by AI**
+
+- **Distribution of CEFR Grades:**
+    - **Human Markers:** Classified essays primarily at lower proficiency levels—**12 at A1** (Breakthrough), **13 at A2** (Waystage), and **5 at B1** (Threshold)9.
+    - **AI Chatbot:** Classified zero essays at A1, **4 at A2**, **25 at B1**, and **1 at B2** (Vantage)9.
+- **Statistical Discrepancy:**
+    - **Exact Agreement:** Human and AI assigned identical CEFR levels in only **4 out of 30 samples (13%)**10.
+    - **Level Discrepancies:** AI rated **57%** (17 samples) one level higher and **27%** (8 samples) two levels higher than human raters10.
+    - **Inter-Rater Agreement:** Human vs. AI alignment yielded a linear-weighted Cohen’s $\kappa = .04$, indicating **non-substantial agreement** (essentially chance level)10.
+
+**4. Qualitative Nuances: Where AI Excels vs. Where It Fails**
+
+- **Strong Surface-Level Convergence:** Both human and AI markers effectively identified mechanical and grammatical errors, including comma/apostrophe misuse, nonstandard spellings (e.g., _"parasytes"_, _"youngerters"_), subject-verb agreement failures (e.g., _"male members has"_), and incorrect article/preposition choices [24–28, 30].
+- **The Reason for AI Over-Estimation:** AI relies heavily on surface fluency, vocabulary range, and syntactic complexity1112. As a result, if an essay was grammatically readable or used complex sentence structures, the AI assigned a higher CEFR level (B1/B2)—overlooking underlying weaknesses in **argument development, critical thinking, relevance, and semantic depth** that human raters penalized1112.
+- **Feedback Quality Trade-offs:**
+    - **Human Limitations:** Due to time constraints and physical paper space, human markers hand-annotated error corrections but provided minimal qualitative explanations for their grade assignments13.
+    - **AI Advantages:** AI reframed structural omissions into explicit observations on **coherence and cohesion**, offering structured, actionable guidance on simplifying awkward phrasing, adding transitions, and expanding vocabulary1415.
+
+**5. Pedagogical & Practical Implications**
+
+- **Adopting a Hybrid Assessment Model:** The authors conclude that AI should not be used for standalone summative grading or high-stakes CEFR placement, as over-estimation could lead to inappropriate course placements1617. Instead, institutions should adopt a **hybrid model**: AI provides rapid preliminary screening, error categorization, and formative diagnostic commentary, while final proficiency judgments remain with human educators1718.
+- **Student AI Literacy:** Educators must train students to critically evaluate AI-generated feedback so they understand its strengths in surface mechanics without taking inflated AI proficiency ratings at face value
+
+[Full paper ](https://ccsenet.org/journal/index.php/elt/article/view/0/53029)
 
 ### Huynh, M., van den Berg, F., Pozza, L., & Van Ogtrop, F. (2024). How generative AI can enhance personalised feedback at scale. In Proceedings of the Australian Conference on Science and Mathematics Education (ACSME 2024) (p. 50). University of Canberra.
 
@@ -165,11 +222,46 @@ Academic writing is central to higher education, yet marking large cohorts of ac
 
 Educators play a crucial role in a student’s learning journey by providing assessment feedback that is personalised, encouraging, constructive and timely (Hattie et al., 1996; Black & Wiliam, 1998; Hattie & Jaeger, 1998 as cited in Carless, 2006). However, they often struggle with heavy workloads and the skill to provide consistent, quality feedback that is meaningful to students. On the other hand, students, especially those new to written assessments, can find feedback to be unclear or overly critical, which can be discouraging and confusing, hindering their learning process. These challenges are magnified in large-cohort units of study where the marking load is done by large numbers of casual staff members leading to issues around standardisation and budgetary constraints. To address this challenge, we built an AI assistant using Cogniti, a generative AI tool created by educators at the University of Sydney. Cogniti allows educators to steer large language models (LLMs) like GPT-4 with specific instructions and resources, producing tailored outputs that support student learning. The Cogniti agents, designed as either a biology expert or data scientist, aid in delivering constructive feedback on written assessments. These agents helped markers to improve and expand their written feedback on scientific reports for two first year units of study: “Introduction to Statistical Methods” and “From Molecules to Ecosystems” in the School of Life and Environmental Sciences, with large enrolments of up to1400 students. Importantly, markers-maintained control over the entire marking process, drawing upon their disciplinary knowledge and experience to ensure precise grading. We describe the impact for markers and unit coordinators in using Cogniti as a feedback expander and demonstrate the types of feedback it can provide. In addition, we outline how easily Cogniti can be cloned and modified so that it can be implemented in new units of study. The dual time saving approach in being able to improve the quality of feedback in a limited amount of time and be easily built and adapted for new units of study, makes Cogniti an ideal tool for improving feedback in largecohort units of study.
 
+Full paper does not exist. The above is the published abstract for the conference. 
 ### Vallis, C., Huber, E., Sun, J. Z., & Bryant, P. (2026). Hand in hand: designing and integrating human and AI-generated feedback in business education. Journal of Work-Applied Management, 1-14.
 
 _Note: Cogniti is not explicitly mentioned in the paper, but it was used by the researchers, and the paper was shared with us by one of the authors of this study_
 
 Abstract Purpose – This paper aims to investigate how written assessments can be redesigned to foreground human connection within generative artificial intelligence (GenAI)-enabled feedback processes, examining how relational feedback practices operate in artificial intelligence (AI)-augmented environments through two case studies in a large Australian business school. Design/methodology/approach – Using an exploratory multiple-case study design, the study draws on focus groups, student surveys and teaching team feedback across two units. Data were analysed deductively through the lenses of relational pedagogy and a relational GenAI integration framework. Findings – Students engaged selectively with human and GenAI feedback, combining sources according to need and confidence. Effective integration depended on relational design elements including scaffolding, emotional engagement and co-design. GenAI was most effective as a complement to human judgement within structured, relationally grounded feedback systems. Originality/value – This paper provides an empirically grounded account of relational feedback practices in AI-augmented assessment. 
+
+**1. Context & Research Objective**
+
+- **Setting & Participants:** Conducted at the University of Sydney Business School across two real-world course environments:
+    - **Case 1 (Undergraduate Finance):** A large-cohort equity research report writing unit enrolling **600+ students**.
+    - **Case 2 (Postgraduate Leadership):** A leadership portfolio unit enrolling **65 students**.
+- **Core Objective:** To investigate how assessment feedback can be redesigned to maintain human connection and relational pedagogy while integrating Generative AI (GenAI) tools at scale.
+
+**2. The Specific Role & Technical Design of AI**
+
+The study deliberately frames AI **not as an automated grading machine or teacher replacement**, but as a scaffold and conversational partner embedded inside a broader human feedback ecosystem:
+
+- **Case 1: On-Demand LMS Chatbot (ChatGPT-4):**
+    - **Co-Designed Architecture:** Designed through student co-design workshops to address student concerns around ethical AI use and evaluation.
+    - **Guided Scaffolding:** Prompted to **give hints and ask reflective questions** rather than flatly providing direct answers or solutions.
+    - **System Integration:** Linked directly with the Learning Management System (LMS) to reference prior instructor feedback, rubrics, lecture slides, and quality exemplars.
+    - **Human Oversight:** Tutors actively monitored conversation logs to detect output errors, intervene when context was needed, and ensure quality.
+- **Case 2: Multimodal AI Avatars & Coaching Chatbot:**
+    - **Personalized AI Avatars:** Utilized custom AI-generated avatar videos of the unit coordinator to deliver personalized weekly updates and progress feedback based on LMS engagement data.
+    - **"Leadership Whisperer" Chatbot:** Acted as an interactive coach to help postgraduate students articulate, test, and evaluate their leadership assumptions.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **Redistribution of Educator Labor:** In the large undergraduate finance unit, tutor consultation hours were reduced from **~40 hours to 15 hours**, while the LMS chatbot handled **641 conversations across 110 unique users**. The AI absorbed routine concept clarification, allowing human educators to focus on deeper, contextualized guidance.
+- **Selective, Non-Uniform Student Engagement:** Students engaged with AI tools strategically based on individual confidence and needs. While some students iteratively refined their drafts using AI hints, others engaged minimally or expressed caution due to accuracy and academic integrity concerns.
+- **Complementary Trust Dynamic:** Students valued AI for **immediate, 24/7 conceptual exploration and initial draft scaffolding**, but consistently preferred human teachers for establishing expectations, setting standards, and evaluating final work.
+
+**4. Nuances & Implementation Trade-Offs**
+
+- **Fostering Critical Evaluation (Epistemic Agency):** Rather than accepting AI answers passively, students were instructed to compare AI outputs against course materials and their own financial research, turning the AI interaction into an exercise in critical evaluation.
+- **The Labor of Relational AI Integration:** The authors emphasize that AI is not a effortless "plug-and-play" efficiency fix. Building AI avatars, running co-design workshops, and monitoring chatbot logs requires significant instructional design, coordination, and ongoing management.
+- **Risk to Disengaged or Low-Confidence Students:** Providing AI access does not guarantee learning gains. Without structured pedagogical support, less confident or technologically inexperienced students risk disengaging or relying on AI superficially. 
+
+[Full paper ](https://www.emerald.com/jwam/article/doi/10.1108/JWAM-03-2026-0062/1386017)
 
 ## Macnaught, L. (2025). _Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics_
 
@@ -192,6 +284,7 @@ This study evaluates the design and classroom integration of custom Generative A
 
 The implication is a more nuanced prompt design in the future.
 
+[Full paper ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5558287)
 ## Student reactions
 
 ### MacKay, G., Bird, R., Gorman, J., Scott, S., Walker, R., & Wang, C. (2025). _Evaluating an AI agent to assist student learning in a 200-level Genetics practical_. Department of Genetics & Centre for Educational Design and Innovation, University of Otago
@@ -202,17 +295,80 @@ A Cogniti chat agent was developed to scaffold student learning in a 200-level G
 
 Note: students rebelled against the Socratic tutor (Socratic loops)
 
+**. Context & Research Objective**
+
+- **Setting & Cohort:** Implemented in a 200-level Genetics practical laboratory (_Drosophila_ data analysis) at the University of Otago, involving a cohort of **131 undergraduate students**. Survey feedback was collected from 38 participants.
+- **Core Problem:** Practical lab environments create teaching bottlenecks when students generate raw data and must apply critical thinking to leading questions. Students frequently experience long wait times for human demonstrators, slowing their progress.
+- **Research Objective:** To evaluate whether an AI chat agent could scaffold student problem-solving, reduce initial confusion, and enable students to utilize limited one-on-one time with human staff more effectively.
+
+**2. Specific Role & Technical Design of AI**
+
+The AI agent was designed as an interactive lab assistant to guide students through structured inquiry rather than simply supplying direct answers:
+
+- **Platform & Prompt Architecture:** Constructed on the **Cogniti** platform and programmed with **12 stepwise guidance prompts** mapped directly to the laboratory guide questions and existing teaching practices.
+- **Socratic Facilitation:** Framed to engage students in Socratic conversation, helping them interpret instructions, analyze data, and build independent problem-solving skills.
+- **Human-in-the-Loop Safeguard:** After working through the stepwise questions with the chatbot, the agent explicitly instructed students to review their final work with a human teaching demonstrator before moving on.
+- **Flexible Access:** Available during the lab and for ongoing review afterward. Students engaged with the agent for an average of **38 minutes** (with 29% of time spent post-lab) and submitted an average of **25 queries** (30% post-lab).
+
+**3. Quantitative Findings: Student Perceptions & Preferences**
+
+- **High Usability & Perceived Accuracy:** Students rated the agent's usability very positively—**92%** found it easy to use, **97%** rated it as accurate, and **82%** rated it as useful.
+- **Mixed Impact on Critical Thinking:** **55%** of surveyed students agreed that the chatbot encouraged critical thinking, while 19% were neutral and **26%** felt it did not.
+- **Strong Preference for Human Interaction:** Despite high usability scores, **60%** of students stated they preferred speaking to a human demonstrator over the chat agent (24% preferred the agent, 16% were neutral).
+
+**4. Qualitative Nuances & Interaction Challenges**
+
+- **Student Manipulation ("Driving for Answers"):** In-lab observations revealed that some students attempted to bypass the agent's Socratic scaffolding, attempting to push the chatbot into revealing direct answers. This off-track prompting often confused the agent's logic.
+- **The Essential Role of Human Demonstrators:** Experienced human lab demonstrators were critical in monitoring student interactions, identifying when students got the agent confused, and redirecting them back into a logical problem-solving flow.
+- **Spontaneous Peer Collaboration:** Although designed for individual use, many students spontaneously chose to work in pairs while interacting with the agent during the lab.
+- **Reduced Social Barriers:** Several students highlighted that asking questions to the AI chatbot reduced the social anxiety or hesitation associated with asking questions in a busy classroom.
+- **Student Concerns:** Qualitative responses surfaced minor technical interface issues, mixed views on whether AI helped or hindered independent thought, and broader student reservations regarding the ethics and environmental footprint of generative AI
+
+[Full paper](https://unistars.org/papers/STUDENTSUCCESS2026/02C.pdf)
+
 ### Kobler, S., Clemson, M., Sun, A., & Kummerfeld, J. K. (2026, July). Your Students Don’t Use LLMs Like You Wish They Did. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 19146-19170).
 
 Note: while the paper does not explicitly mention, Cogniti, Cogniti was used for the ‘constrained AI’ condition.
 
 Abstract: Educational NLP systems are typically evaluated using engagement metrics and satisfaction surveys, which are at best a proxy for meeting pedagogical goals. We introduce six computational metrics for automated evaluation of pedagogical alignment in student-AI dialogue. We validate our metrics through analysis of 12,650 messages across 500 conversations from four courses. Using our metrics, we identify a fundamental misalignment: educators design conversational tutors for sustained learning dialogue, but students mainly use them for answer extraction. Deployment context is the strongest predictor of usage patterns, outweighing student preference or system design: when AI tools are optional, usage concentrates around deadlines; when integrated into course structure, students ask for solutions to verbatim assignment questions. Whole-dialogue evaluation misses these turn-by-turn patterns. Our metrics will enable researchers building educational dialogue systems to measure whether they are achieving their pedagogical goals.
 
-Olga’s notes: the abstract does not mention the comparison between unrestrained AI and ‘restrained’ AI (= Cogniti), but there are intersting findings in the paper about it. Briefly,
+Olga’s notes: the paper is based on Cogniti although it's not named in the paper 
 
-Comparing unrestrained AI platforms with **Cogniti** (the restrained, Socratic platforms):
+**1. Context & Research Objective**
 
-**Exploratory Dialogue vs. Answer Seeking**: Unrestrained platforms resulted in near-total answer-seeking behavior, whereas Cogniti platforms fostered substantially more exploratory, conceptual dialogue by enforcing guided hints and Socratic prompts
+- **Setting & Scope:** Conducted at The University of Sydney, analyzing 12,650 messages across 500 student-AI conversations from five datasets spanning four university courses in STEM disciplines.
+- **Core Objective:** The study addresses a fundamental flaw in educational AI research: standard evaluations rely on student satisfaction surveys, which mask how students actually use AI tools. The authors developed six computational metrics to evaluate whether student interactions align with intended pedagogical goals rather than superficial engagement.
+
+**2. Specific Role & Technical Design of AI (Six Evaluation Metrics)**
+
+The study compared two distinct deployment paradigms [26–28]:
+
+1. **Pedagogically-Constrained AI Tutors:** Optional tools using Socratic dialogue, guided hints, and Bloom's Taxonomy scaffolding (_DrMattTabolism_, _DrNucleicAlice_, _MEDS2004_, _OLiMent_).
+2. **Unrestricted AI Assistants:** Broad AI integration where students were encouraged to use an AI assistant (_StudyChat_) for weekly course tasks.
+
+To measure actual turn-by-turn student behavior, the authors created and validated six computational metrics:
+
+- **Conversational Engagement Score (CES):** Measures sustained, multi-turn dialogue versus transactional Q&A.
+- **Learning Orientation Index (LOI):** Measures the balance between exploratory learning (process-focused, "why/how") and direct solution-seeking ("just give me the answer").
+- **Scaffolding Resistance Score (SRS):** Quantifies how often students resist, bypass, or ignore Socratic prompts and hints.
+- **Assignment Dependency Ratio (ADR):** Detects homework copy-pasting and task-driven queries.
+- **Crisis Mode Indicator (CMI):** Measures shifts toward panic language, late-night usage, and direct queries during assessment windows.
+- **Usage Concentration Index (UCI):** Uses the Gini coefficient to evaluate whether usage is distributed across the semester or spiked around deadlines.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **The Core Misalignment ("Systems Assume Dialogue, Students Seek Answers"):** While educators design AI tutors for exploratory Socratic learning, students primarily use them for efficient answer-extraction. Solution-seeking dominated 66.5% of conversations on constrained platforms and 92.0% on the unrestricted platform (where only 2.0% of conversations were exploratory).
+- **Widespread Scaffolding Resistance:** When AI agents tried to guide students using hints or leading questions, students actively fought the scaffolding. Across interactions, **49.0% ignored the guidance**, 20.8% rephrased queries to bypass guardrails, and 18.3% directly demanded the final answer. Enforcing strict Socratic rules (_DrNucleicAlice_) doubled scaffolding resistance compared to a more flexible agent (_DrMattTabolism_).
+- **The "Satisfaction-Effectiveness Inversion":** High interaction fluency or user satisfaction does not equate to effective learning. Unrestricted AI achieved higher engagement scores (0.713) but produced the lowest learning orientation. External validation on the RECIPE4U dataset confirmed that student satisfaction ratings showed **zero statistical correlation** with pedagogical learning indicators.
+- **Deployment Context Trumps Agent Design:** How an AI tool is deployed matters more than its system prompt. When AI tools were optional, students used them as "crisis management systems," with up to **59.7% of entire semester usage concentrated in a single exam week**. When AI was integrated into weekly coursework, temporal usage was smoother, but students routinely pasted assignment prompts to extract direct answers.
+
+**4. Nuances & Implementation Trade-Offs**
+
+- **The Illusion of Fluency & Desirable Difficulties:** Smooth, frictionless AI interactions give students a false sense of mastery ("illusion of fluency") while removing the productive struggle necessary for real learning.
+- **Automated Detection Limitations:** The study revealed that current LLM-based evaluators overestimate homework copy-pasting (ADR), frequently flagging legitimate problem-solving discussions as academic integrity violations.
+- **Systemic Student Reality:** High deadline usage and answer-seeking are rational student responses to academic workload and assessment pressure, demonstrating that changing system prompts alone cannot override systemic course incentives
+
+[Full paper ](https://aclanthology.org/2026.acl-long.875/)
 
 ## Health Education (Teaching Content + Roleplays)
 
@@ -227,6 +383,29 @@ A total of 139 students (aged 18–55 years) completed surveys before and after 
 Students reported significant improvements in perceived learning and success (p = 0.04 for both), while no significant changes were observed for engagement or wellbeing. Qualitative findings suggest students valued access to 24/7 academic support, increased confidence in assignment preparation, and reduced stress. Some students, however, emphasised the importance of maintaining human interaction between academics and students.
 
 Overall, the findings suggest Cogniti AI academic agents can enhance targeted aspects of the student experience, particularly learning and success, when thoughtfully integrated into higher education. Conceptual, pedagogical, and institutional implications are discussed to support implementation that complements, rather than replaces, human-centred learning.
+
+**1. Context & Research Objective**
+- **Setting & Participants:** Conducted at Flinders University across four undergraduate course areas: Education, Psychology, Social Work, and Sport. A total of 251 unique students accessed the chatbots, and 139 students (ages 18–55) participated in the study's surveys.
+- **Core Problem:** Students frequently require assignment guidance outside standard class hours—a period characterized by uncertainty and stress—when teaching staff are unavailable, creating a critical learning support gap.
+- **Research Objective:** To evaluate how custom, course-embedded Generative AI agents impact undergraduate students' perceived learning, success, engagement, and wellbeing during assessment preparation.
+
+**2. Specific Role & Technical Design of AI**
+- **Framework ("Learner-as-Leader"):** The study conceptualized the chatbots using Ouyang and Jiao’s (2021) Paradigm 3 ("AI-empowered, learner-as-leader"), designing the tools to augment student agency and active inquiry rather than direct learning passively.
+- **Custom Cogniti Socratic Tutors:** Built as course-specific academic "doubles" on the Cogniti platform. Rather than providing static answers, the agents were programmed as Socratic tutors to answer assessment queries, guide concept development, and provide formative feedback on student writing.
+- **Human Oversight & Governance:** To enforce academic integrity, researchers monitored student-agent conversation logs weekly (and every 3–4 days in Psychology) to confirm that the agents encouraged self-directed learning, did not write assignments for students, and did not rewrite provided text.
+
+**3. Key Findings on the Role and Impact of AI**
+- **Statistically Significant Improvements in Learning & Success:** Mann-Whitney U tests revealed significant positive shifts between baseline and endline surveys in student perceptions of Learning (p = 0.04) and Success (p = 0.04). Students reported improved understanding of concepts and greater capability to overcome challenging coursework.
+- **No Significant Impact on Engagement or Wellbeing:** The pilot found no statistically significant pre-post differences for overall student Engagement (p = 0.30) or Wellbeing (p = 0.59).
+- **High Usability & Accessibility:** Students rated the agents very highly on 24/7 availability of topic content (Mean = 83.86 out of 100) and ease of use (Mean = 78.82 out of 100).
+
+**4. Qualitative Nuances & Student Experiences**
+- **Elimination of the "Fear of Looking Silly":** Qualitative analysis revealed that students valued the judgment-free environment. Students noted they often avoid asking "silly questions" to human staff, which leads to task procrastination; the AI agent provided a safe space to clarify basic doubts without fear of negative evaluation.
+- **Leveling the Field for External/Online Learners:** External students reported that 24/7 AI access reduced their sense of disadvantage relative to on-campus peers by providing on-demand clarification when educators were unreachable.
+- **Stress Reduction vs. Human Replacement Concerns:** While continuous access helped mitigate assessment anxiety, students explicitly cautioned that AI agents should serve as a complementary helper rather than a replacement for human educators and relational teaching interactions.
+- **Technical Limitations:** Some students noted occasional inconsistent or contradictory responses across different chat sessions, underscoring the need for ongoing pedagogical oversight. 
+
+[Full paper](https://link.springer.com/article/10.1007/s10758-025-09942-7)
 
 ### Or, A., Sukumar, S., Ma, A., Ang, D., Liu, M., Ritchie, H. E., & Sarrafpour, B. (2025). Enhancing dental students’ history-taking skills with a generative artificial intelligence chatbot. _Journal of Dental Education_, advance online publication. https://doi.org/10.1002/jdd.13952
 
@@ -248,11 +427,41 @@ A total of 31 students participated in the trial. The cohorts saw a significant 
 
 Educational chatbots can act as VPs, allowing users to practise patient history-taking. This chatbot was seen as a beneficial supplementary resource for preclinical dental students, enabling them to supplement the currently limited opportunities to practise this skill.
 
+[Full paper ](https://onlinelibrary.wiley.com/doi/10.1002/jdd.13952)
+
 ### Mathews, P., Adams, J., & Cheyne, C. (2025). Personalised learning for nursing education with Gen-AI chatbots. _Nursing Praxis in Aotearoa New Zealand_, _41_(1), Article 151665. [https://doi.org/10.36951/001c.151665](https://doi.org/10.36951/001c.151665)
 
 **Abstract:**
 
 Nursing education is being transformed with the increasing availability of a range of artificial intelligence (AI)-generated technologies. This article reports on an educational innovation trialling Generative AI (Gen-AI) agents or chatbots using Cogniti.ai in a bachelor of nursing (BN) degree in New Zealand. Students enrolled in a first-year undergraduate nursing science course were given the opportunity to use a chatbot focussed on course materials and preparing students for summative testing scenarios. Nursing educators were able to identify gaps in learning resources based on the conversations students had with chatbots. Data was collected through analysis of student conversations with the chatbot prior to two summative tests during 2024, together with feedback from students (n=55) through an online survey. The findings indicated that the chatbot was highly valued by nursing students and educators. The research highlighted that appropriately configured Gen-AI chatbots can significantly enhance student learning of complex course content. Introducing students to chatbots for personalised learning support is also an opportunity to build AI literacy for working in a profession where digital tools are readily available and increasingly embraced. All nursing education programmes are now needing to consider how to integrate the rapidly evolving AI-powered educational technology. This project provides a foundation for ongoing research on the use of Gen-AI support in nursing education.
+
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Implemented in a first-year undergraduate Bachelor of Nursing (BN) nursing science course (anatomy and physiology) at Toi Ohomai Institute of Technology in Aotearoa New Zealand, enrolling **127 students**.
+- **Core Problem:** First-year nursing science content (anatomy, physiology, pharmacology) is notoriously challenging for vocational nursing students. Students often require personalized tutoring and practice testing outside standard class hours.
+- **Research Objective:** To evaluate the educational impact of an institutionally secured, course-embedded Generative AI chatbot designed for personalized learning support and exam preparation for two summative science tests.
+
+**2. Specific Role & Technical Design of AI**
+
+- **Cogniti & RAG Architecture:** The chatbot was built on the **Cogniti** platform utilizing GPT-4. To eliminate hallucinations and enforce course alignment, the agent used Retrieval-Augmented Generation (RAG) anchored directly to LMS slides, course documents, and tutorial materials.
+- **Prompt Engineering:** System prompts were adapted from Mollick & Mollick (2024) to configure the agent as a supportive mentor and tutor. It was instructed to deliver iterative practice questions, guide concept breakdown, and explain complex physiological mechanisms (e.g., cardiovascular and respiratory systems).
+- **Institutional Privacy & Data Governance:** Conversations were stored within the institution’s private network to comply with New Zealand privacy laws, data sovereignty, and Te Tiriti o Waitangi principles.
+- **Student Onboarding:** Students received a face-to-face induction explaining AI limitations, data access rules (only teachers could view anonymized logs), and effective prompt formatting strategies.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **Significant Gains in Assessment Performance:** Approximately **70% of students increased their test scores** between Test 1 and Test 2 in the 2024 AI-supported cohort. In contrast, historical control cohorts from 2022 and 2023 showed flatlined or declining score trajectories between the same two tests.
+- **High Student Adoption & Valuation:** Active chatbot users grew from 30 students prior to Test 1 to **100 students (out of 127 enrolled)** prior to Test 2, generating over 1,200 distinct conversation sessions. In the student survey (_n_ = 55), **62% rated the tool "very helpful"**, and **91% rated it 4 or 5 out of 5** for wanting to continue using it in future studies, with two-thirds calling it "essential".
+- **24/7 On-Demand Support Outside Class Hours:** Analysis of timestamp logs showed that **50% of all student chat sessions occurred between 01:00 and 08:59**, and **31% between 17:00 and 00:59**. Only 19% occurred during standard class-facing hours (09:00 to 16:59), confirming that the AI successfully filled late-night study support gaps.
+
+**4. Qualitative Nuances & Pedagogical Insights**
+
+- **Driven by Self-Testing & Practice:** Student queries focused heavily on drill-and-practice interactions (e.g., asking for "50 MCQs likely to be on the test" or "10 hard questions on the cardiovascular system") and breaking down complex concepts in simple terms.
+- **Prompt Flexibility Adjustments:** Conversation logs revealed student frustration when the agent rigidly insisted on checking understanding after every single question before advancing. Instructors used this feedback to modify the system prompt, adding greater flexibility based on session length and student progression.
+- **Closing Educator Knowledge Gaps:** Reviewing student conversation logs provided educators with real-time feedback regarding specific course topics students struggled with most, allowing lecturers to update LMS teaching materials accordingly.
+- **Building Digital AI Literacy for Nursing:** The authors highlight that introducing safe AI tutoring builds essential digital health literacy, preparing nursing graduates for clinical environments where digital tools and AI applications are increasingly mandated.
+
+[Full paper ](https://www.nursingpraxis.org/article/151665-personalised-learning-for-nursing-education-with-gen-ai-chatbots)
 
 ## STEM
 
@@ -262,6 +471,39 @@ Nursing education is being transformed with the increasing availability of a ran
 
 This article explores the potential for developing higher-order cognitive thinking in learners through the strategic teaching of programming languages. It demonstrates that such cognitive growth can be fostered and structured through the use of a custom-designed educational platform integrated with an AI-powered chatbot. This approach enables a gradual and measurable enhancement of cognitive skills while providing real-time assessment of students’ cognitive levels. Traditionally, identifying cognitive development required extensive manual coding and long-term research. However, by leveraging artificial intelligence capabilities alongside Bloom’s Taxonomy, this study introduces a method for automatically assessing learners’ cognitive levels in parallel with improving their programming proficiency. The findings offer instructors actionable insights into student performance and the opportunity to adjust teaching strategies accordingly. The paper also discusses practical applications and advantages of incorporating AI chatbots into the learning process.
 
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Implemented during the 2023–2024 academic year at the Y. Altynsarin Binom School Lyceum in Astana, Kazakhstan, involving **96 seventh-grade students** enrolled in a year-long elective Python programming course.
+- **Core Problem:** Traditional programming instruction frequently focuses on basic syntax memorization, while manually evaluating student code to track higher-order cognitive development is labor-intensive for teachers. Furthermore, standard conversational AI tools risk fostering passive learning if students simply use them to generate completed code rather than developing independent problem-solving skills.
+- **Research Objective:** To evaluate whether integrating a custom AI chatbot alongside an in-browser code compiler within a digital learning environment can cultivate and automatically measure students' higher-order cognitive thinking based on Bloom's Taxonomy.
+
+**2. Specific Role & Technical Design of AI**
+
+- **Dual System Architecture:** The learning environment combines an LLM-based chatbot module directly with an interactive in-browser Python compiler. This allows students to receive conversational guidance while immediately executing, testing, and debugging their code within the same interface.
+- **Socratic Prompting & Fine-Tuning:** The chatbot is fine-tuned on a specialized pedagogical dataset to prevent it from providing direct code answers. Instead, it poses leading, Bloom's Taxonomy-aligned questions, guides logical reasoning, explains error causes, and delivers motivational encouragement.
+- **Bloom's Taxonomy Progression:** Course tasks are structured across three adapted cognitive tiers:
+    1. _Lower-Order Skills (Remembering & Understanding):_ Recalling basic syntax and explaining command functions.
+    2. _Mid-Level Skills (Application & Analysis):_ Solving standard coding problems and independently identifying logical bugs.
+    3. _Higher-Order Skills (Evaluation & Synthesis/Creation):_ Evaluating algorithmic efficiency and creating original coding solutions for project-based tasks.
+- **Automated Analytics & Teacher Diagnostics:** The system automatically logs all code attempts (including incorrect runs) and chatbot interactions. This gives instructors real-time diagnostic reports showing each student's cognitive level and specific conceptual weaknesses.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **Controlled Experimental Design:** Students were randomly divided into an **Experimental Group (****n** **= 48)** using the AI-enhanced learning environment and a **Control Group (****n** **= 48)** taught via traditional curriculum methods without AI or digital compiler support.
+- **Doubling of Higher-Order Skill Attainment:** On the post-course assessment, the proportion of students in the Experimental Group demonstrating higher-order cognitive skills nearly doubled from 25.0% at baseline to **45.8%**, while the proportion classified in the lower-order tier was halved from 25.0% down to **12.5%**. In contrast, higher-order skill attainment in the control group remained flat at **25.0%**.
+- **Statistically Significant Discrepancies & Massive Effect Size:** Comparing post-course scores across cognitive tiers demonstrated that the AI-supported group significantly outperformed the control group [30–33]:
+    - _Lower-Order Skills:_ Experimental _M_ = 88.5% (_SD_ = 7.0) vs. Control _M_ = 80.0% (_SD_ = 8.5) (_p_ < 0.01, _t_ = 3.10, Cohen's _d_ = 0.94).
+    - _Mid-Level Skills:_ Experimental _M_ = 75.0% (_SD_ = 10.0) vs. Control _M_ = 65.0% (_SD_ = 11.5) (_p_ < 0.0001, _t_ = 4.50, Cohen's _d_ = 0.92).
+    - _Higher-Order Skills:_ Experimental _M_ = 70.5% (_SD_ = 9.2) vs. Control _M_ = 50.0% (_SD_ = 11.0) (_p_ < 0.0001, _t_ = 9.25, Cohen's _d_ = 2.02). The Cohen's _d_ value of **2.02** represents an exceptionally large practical effect.
+
+**4. Qualitative Nuances & Pedagogical Insights**
+
+- **Mitigating AI Dependency Through Hands-On Coding:** By requiring students to execute and test their code in the built-in compiler immediately after receiving conversational hints, the system prevents passive copy-pasting and encourages active debugging.
+- **Real-Time Pedagogical Adaptation:** Rather than waiting for end-of-term exams or conducting time-consuming manual code reviews, teachers utilized the diagnostic analytics to identify learning gaps and adjust classroom instruction in real time.
+- **Collaborative & Motivational Benefits:** In addition to individual problem-solving, the system supported peer collaboration and offered continuous motivational feedback that sustained student engagement throughout the year
+
+[Full paper ](https://ieeexplore.ieee.org/abstract/document/11415105?casa_token=P0VM66KG0okAAAAA:g8_hIUDxby-bhyTTsXP7nOoDt1qWXEhJZE1VUsTHJ5t0ahJJslLoWi3-WkK7hEcUipt_2A)
+
 ## ARTS
 
 ### Liang, Q. (2025). Cogniti, the Socratic AI tutor, and its impact on student learning in a conservatory musicology course \[Master's thesis, University of Sydney\]. Sydney Conservatorium of Music.
@@ -270,6 +512,43 @@ This article explores the potential for developing higher-order cognitive thinki
 
 The growing prevalence of artificial intelligence (AI) in music education, which has been employed in various domains such as music performance, music composition, music education, and music recommendation, has also raised some questions about academic integrity. In this pilot study, a Socratic AI Tutor, Cogniti, was created to assist students in a first-year undergraduate degree at the Sydney Conservatorium of Music in a unit of study called “This is Music”. Cogniti provided students with critical thinking prompts without any course-related answers. The aim of this study was to explore what happens during the conversation between students and Cogniti, and to discern how the AI tutor facilitated students’ deep learning. A mixed research method combining metadiscourse analysis and thematic analysis was used to analyse conversation transcripts and Cogniti over the five-week study period. Students also provided feedback through a questionnaire. The findings suggest that Cogniti fits well with the Socratic Method in tutoring students' learning. The results of the metadiscourse analysis show the characteristics and differences in the use of metadiscourse markers between Cogniti and the students, and the results reflect the ability to facilitate student learning in terms of language functions. Cogniti also can provide effective guidance to students that is aligned to teaching objectives and course content, and the communication process supports the development of critical thinking and promotes deep learning. Problems included a little misuse of the tool as well as mixed student engagement overall. This study highlights the potential of Cogniti to enhance music education and explores a case for the appropriate use of generative AI tutors in undergraduate music courses.
 
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Conducted at the Sydney Conservatorium of Music (University of Sydney) in the compulsory first-year undergraduate musicology course _"This is Music"_ (MCGY1030).
+- **Data Corpus:** Evaluated over a 5-week trial, capturing **251 conversation transcripts** (>170,000 total words). A stratified random sample of 20 transcripts underwent qualitative thematic analysis, triangulated with an end-of-unit student survey (_n_ = 7).
+- **Core Research Objective:** To investigate how a custom, course-embedded Socratic AI agent facilitates deeper learning, critical thinking, and assignment preparation in undergraduate musicology without supplying direct answers or completing student work.
+
+**2. Specific Role & Technical Design of AI**
+
+- **Platform & LLM Architecture:** Built on the **Cogniti** platform utilizing Microsoft Azure-hosted **GPT-4 Turbo** (temperature set to 0.8) and embedded directly into Canvas LMS as an LTI tool.
+- **Socratic System Messages:** Programmed as an "academic double" configured to guide critical reflection, suggest research directions, and help students structure essay arguments. System messages explicitly instructed the agent **not to write essays or provide direct assignment answers** for students.
+- **Iterative RAG Knowledge Base:** Grounded in Canvas course materials, assessment rubrics, and weekly lecture transcriptions that were manually uploaded after each session to maintain real-time course alignment.
+- **Dual Research Methodology:** The author evaluated human-AI interaction using a mixed-methods triangulation:
+    1. _Quantitative Metadiscourse Analysis:_ Analyzed linguistic interaction markers (using Hyland’s 2005 interpersonal model via AntConc) across three corpora: full transcripts, student queries, and AI responses.
+    2. _Qualitative Thematic Analysis:_ Examined 20 sampled dialogue transcripts (using Braun & Clarke’s 6-step framework via ATLAS.ti) to identify pedagogical communication themes.
+
+**3. Key Findings on the Role and Impact of AI**
+
+**A. Metadiscourse & Linguistic Function (AI vs. Student Communication)**
+
+- **Structural Rigor vs. Emotional Stance:** Cogniti used significantly higher levels of **interactive metadiscourse** (49.97 per 1,000 words vs. students' 41.65), heavily relying on transitions (_and, or, however_), code glosses (_for example, such as_), and hedges (_might, perhaps_) to present cautious, non-authoritative, and logically structured explanations. In contrast, students balanced interactive (41.65) and **interactional metadiscourse** (38.44 per 1,000 words), expressing greater personal emotion, subjective opinions, and self-mentions (_I, me_).
+- **Active Engagement Prompting:** Cogniti exhibited a high frequency of engagement markers (15.90 per 1,000 words), frequently using directive verbs (_remember, consider_) and open-ended questions (_Wh-questions_) to invite students to analyze concepts and build argument context.
+
+**B. Five Key Pedagogical Themes in Dialogues**
+
+1. **Curriculum Review & Contextualization:** Summarized complex lecture content while bridging technical musicology with history, philosophy, and cultural aesthetics.
+2. **Assignment Step-by-Step Guidance:** Assisted students in connecting music theory (e.g., editorial scores and notation) directly to their personal instrumental performance practice (e.g., clarinet playing).
+3. **Tailored Essay Topic Selection:** Scaffolded final essay topic generation based on individual student identities (e.g., songwriters, performers) across diverse music genres (e.g., jazz rap, opera, vocal production).
+4. **Critical Thinking & Self-Reflection:** Posed probing questions to help students identify research gaps, articulate "so what?" arguments, and synthesize theoretical perspectives.
+5. **Draft Feedback & Guardrail Boundary Testing:** Offered constructive feedback on student thesis statements. In one instance, the agent proactively provided rephrased text and typographical corrections, revealing an edge-case boundary breach of its "no direct answers" guardrail.
+
+**C. Student Satisfaction & Feedback**
+
+- **High Perceived Utility:** 6 out of 7 surveyed students agreed or strongly agreed that interacting with Cogniti provided a clear roadmap for completing assessment tasks and stimulated critical thinking.
+- **Appreciated Features:** Students praised its judgment-free environment, 24/7 Canvas availability, document summarization, and ability to expand research directions.
+- **Reported Drawbacks:** Students noted occasional technical glitches (unexpected site crashes/session loss), minor factual hallucinations (e.g., misattributing Vivaldi's _Four Seasons_ to the Romantic era), and incorrect citation formatting
+
+[Full paper ](https://ses.library.usyd.edu.au/handle/2123/34285)
 ## Staff-facing/Learning Design
 
 ### Tibbs, A. (2025). Building capacity for AI-powered learning: A collaborative trial of conversational agents in higher education. In S. Barker, S. Kelly, R. McInnes, & S. Dinmore (Eds.), _Future Focussed: Educating in an era of continuous change. Proceedings ASCILITE 2025_ (pp. 610–614). ASCILITE. [https://doi.org/10.65106/apubs.2025.2647](https://doi.org/10.65106/apubs.2025.2647)
@@ -280,11 +559,70 @@ Abstract:
 
 Generative AI-powered conversational agents represent new opportunities for personalised learning in higher education, but institutional adoption requires careful support and professional development. This paper presents a case study of a collaborative trial involving twenty-six university staff who created and tested learning agents using the Cogniti platform over six months in 2024. Participants developed twenty agents across multiple disciplines, with nine successfully deployed to teaching practice. Survey results showed exceptional satisfaction rates, with all participants rating the platform as easy to use and 95% willing to recommend it to colleagues. Qualitative analysis identified benefits including scalable personalised feedback, enhanced student engagement, and flexible learning scenarios that would otherwise require significant staff time and resources. Participants emphasised that success depends heavily on developing prompting skills and understanding AI limitations. Critical success factors included expert support from learning designers acting as 'critical friends' and opportunities for interdisciplinary learning. Results suggest that well-designed collaborative trials can overcome barriers to AI adoption in higher education by providing necessary training, support, and community while ensuring pedagogically sound implementation that maintains quality learning experiences.
 
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Conducted at Edith Cowan University in Australia over six months (July–December 2024). The trial involved **26 total university staff**: 12 academic/professional creators across diverse disciplines (Education, Performing Arts, Medical & Health Science, Engineering, Business & Law, Arts & Humanities, and Academic Pathways) and 14 support staff (primarily learning designers).
+- **Core Problem:** While LLM-powered chatbots offer significant opportunities for personalized learning, a major barrier to higher education adoption is that academics often lack foundational AI literacy and prompt design skills to create pedagogically sound agents without compromising learning quality.
+- **Research Objective:** To evaluate the outcomes, benefits, risks, and critical support structures of a collaborative, institution-supported trial designed to empower educators to build, test, and deploy custom conversational agents in their teaching practice.
+
+**2. Specific Role & Technical Design of AI**
+
+- **Platform & Agent Deployment:** Participants created learning agents on the **Cogniti** platform. Staff created **20 distinct learning agents**, of which **9 were successfully deployed** to students during Semester 2, 2024 (comprising 4 tutor agents, 3 roleplay simulations, and 2 FAQ bots). (Support staff created an additional 30 exploratory agents for testing).
+- **Usage & Engagement Analytics:** Deployed agents engaged **129 unique users across 455 total conversation sessions**, with a median conversation length of 7.8 turns. The three agents with the highest student engagement were:
+    1. A reflective writing feedback tutor.
+    2. A clinical patient interview roleplay simulation.
+    3. A journalism roleplay featuring a conversation with an editor.
+- **Professional Development & Support Scaffolding:** To build staff capability, the trial provided temporary platform access, training sessions, a prompting masterclass, a 2-hour prototyping "hackathon" workshop, a Miro reference board, and dedicated pairing with learning designers who acted as "critical friends" to review agent prompts.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **High Usability & Educator Satisfaction:** Survey results (83% participant response rate) showed exceptional satisfaction: **100% of respondents agreed Cogniti was easy to use**, 89% felt its features met their needs, and **95% would recommend it to colleagues** (with zero negative satisfaction ratings).
+- **Scalable Personalization ("Cloning the Educator"):** Participants reported that learning agents enabled immediate, 24/7 formative feedback and interactive roleplay practice that would otherwise be impossible due to staff time constraints, describing the efficiency gain as "being able to clone yourself".
+- **Most Effective Support Structures:** Academic participants rated the **prompting masterclass** (81% extremely satisfied) and **one-on-one learning designer guidance** (56% extremely satisfied) as the most impactful training supports.
+
+**4. Qualitative Nuances & Pedagogical Insights**
+
+- **Educator Prompting Capacity as the Main Limit:** Participants emphasized that an agent's educational value is strictly bounded by the lecturer's understanding of prompt design and clarity regarding learning outcomes, noting that system limitations were often reflections of educator prompting skills.
+- **Risks of Reduced Human Interaction:** Support staff highlighted technical limitations (agents struggling with complex, open-ended, or highly contextual reasoning) and flagged the potential risk of students feeling isolated or viewing agent interactions as an inadequate substitute for genuine educator contact.
+- **Cross-Disciplinary Learning:** Interdisciplinary trial groups allowed academics to observe novel AI applications outside their own departmental silos, accelerating institutional learning and AI literacy
+
+[Full paper ](https://open-publishing.org/publications/index.php/APUB/article/view/2647)
+
 ### Lindsay, J., & Jacka, L. (2026). A rose by any other name: AI augmented HyFlex learning. _Journal of Applied Learning and Teaching_, _9_(2).
 
 Abstract:
 
-This paper addresses a dual challenge in higher education: making HyFlex implementation more sustainable whilst overcoming terminology-based resistance that prevents educators from recognising intelligent tools as pedagogical supports. Between October 2024 and July 2025, the University of Southern Queensland participated as the sole non-European institution among 17 providers in the Jisc Beyond Blended pilot, simultaneously running an internal HyFlex-Beyond Blended initiative across two trimesters. Drawing on a Scholarship of Teaching and Learning framework and critical reflective practice, this study examines the integration of intelligent tools across synchronous and asynchronous HyFlex modalities. Insights from practice suggest that framing tools by pedagogical function rather than technological label reduced adoption resistance and supported HyFlex principles of choice, flat learning, and accessibility. Purpose-built AI agents supported learning design, automated content creation reduced educator workload, and conversational AI enhanced asynchronous engagement. However, infrastructure limitations, a flexibility-engagement paradox, and a lack of student feedback constrain claims. Three theoretical contributions are offered: framing affects intelligent tool adoption; AI capabilities can operationalise HyFlex principles that have been theoretically sound but practically challenging; and critical reflective practice can generate valid scholarly insights from institutional pilots. Implications include pedagogical framing in change management, phased implementation, and embedding tools within existing workflows
+This paper addresses a dual challenge in higher education: making HyFlex implementation more sustainable whilst overcoming terminology-based resistance that prevents educators from recognising intelligent tools as pedagogical supports. Between October 2024 and July 2025, the University of Southern Queensland participated as the sole non-European institution among 17 providers in the Jisc Beyond Blended pilot, simultaneously running an internal HyFlex-Beyond Blended initiative across two trimesters. Drawing on a Scholarship of Teaching and Learning framework and critical reflective practice, this study examines the integration of intelligent tools across synchronous and asynchronous HyFlex modalities. Insights from practice suggest that framing tools by pedagogical function rather than technological label reduced adoption resistance and supported HyFlex principles of choice, flat learning, and accessibility. Purpose-built AI agents supported learning design, automated content creation reduced educator workload, and conversational AI enhanced asynchronous engagement. However, infrastructure limitations, a flexibility-engagement paradox, and a lack of student feedback constrain claims. Three theoretical contributions are offered: framing affects intelligent tool adoption; AI capabilities can operationalise HyFlex principles that have been theoretically sound but practically challenging; and critical reflective practice can generate valid scholarly insights from institutional pilots. Implications include pedagogical framing in change management, phased implementation, and embedding tools within existing workflows. 
+
+**1. Context & Research Objective**
+
+- **Setting & Scope:** Conducted at the University of Southern Queensland (UniSQ), a regional Australian university with 65% of its 21,000+ students studying online. UniSQ was the sole non-European institution among 17 higher education providers participating in the UK Jisc _Beyond Blended_ pilot, simultaneously running an internal HyFlex–Beyond Blended (HBB) pilot across two trimesters in 2025 involving 17 educators across 8 schools and 3,916 students.
+- **Core Problem:** Implementing Hybrid-Flexible (HyFlex) learning creates significant educator workload (designing for synchronous in-person, synchronous online, and asynchronous modes). Simultaneously, while intelligent AI tools can alleviate this burden, educator adoption is frequently blocked by "AI anxiety" and terminology-triggered resistance.
+- **Research Objective:** To evaluate how framing intelligent tools by their **pedagogical function** rather than technological labels ("AI") makes HyFlex implementation sustainable, reduces educator resistance, and operationalizes core HyFlex principles (Choice, Flat Learning, and Accessibility).
+
+**2. Specific Role & Technical Design of AI**
+
+- **Typology by Pedagogical Function:** Rather than treating AI as a monolithic technology, the pilot classified intelligent capabilities into four functional categories:
+    1. _Synchronous AI Platforms:_ Engageli (offering automated class summaries, auto-generated polls, real-time analytics, and asynchronous 'Playback' rooms).
+    2. _Multimodal Content Generation Tools:_ Synthesia (avatar-based video creation), Nolej (interactive H5P elements), and Microsoft Co-Pilot.
+    3. _Conversational AI & Custom Agents:_ Built on the **Cogniti** platform (hosted on Azure) to create custom design agents, including the _HyFlex Helper_ and _Beyond Blended Buddy_ agents. (Advanced curriculum agents like _FlexEd Felix_ were later transitioned to BoodleBox).
+    4. _Course Support Chatbots:_ Chatbots deployed directly to students to answer 24/7 routine queries regarding course materials and schedules.
+- **Strategic Framing ("Critical Friends"):** AI tools were explicitly positioned as "pre-work supports" and "critical friends" that enhance rather than replace human instructional design.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **Workload Redistribution & Efficiency:** Automated content generation tools and custom AI agents significantly reduced educator preparation time. AI agents handled routine HyFlex design inquiries, providing "just-in-time" support between formal consultations with learning design teams.
+- **Operationalizing Asynchronous Equivalency:** Conversational AI provided 24/7 interactive support for asynchronous learners, bridging the gap between live tutorials and independent study to mitigate student isolation without increasing teacher hours.
+- **Accelerating Professional Development:** Custom Cogniti design agents allowed educators to rapidly test how their existing learning activities aligned with HyFlex principles before meeting with instructional designers, speeding up curriculum redesign cycles.
+
+**4. Qualitative Nuances & Implementation Challenges**
+
+- **The "Rose" Metaphor (De-labeling AI):** The authors demonstrate that when institutions de-emphasize technological labels ("AI") in favor of educational outcomes (e.g., framing a chatbot as a "24/7 study partner"), educator resistance and "AI anxiety" diminish.
+- **Physical Infrastructure Obstacles:** The study highlighted that AI software cannot overcome physical room limitations; fixed cameras, poor acoustics, and single-instructor setups in traditional lecture halls severely hindered true hybrid engagement.
+- **The Flexibility–Engagement Paradox:** Increasing asynchronous availability created an unexpected tension: some students questioned why they should attend live sessions when asynchronous alternatives were so rich, occasionally decreasing synchronous participation.
+- **Lack of Direct Student Voice:** Because the pilot used a Scholarship of Teaching and Learning (SoTL) reflective practice framework, data were derived from educator design consultations and workshop logs; formal student survey data were not collected. 
+
+[Full paper](https://research.usq.edu.au/item/105866/a-rose-by-any-other-name-ai-augmented-hyflex-learning) 
 
 ## Other
 
@@ -293,3 +631,48 @@ This paper addresses a dual challenge in higher education: making HyFlex impleme
 Abstract:
 
 With generative AI use on the rise in creative domains, research into the impact of generative AI on creativity has become paramount. However, conflicting results make understanding the impact more difficult. This difficulty is also compounded by the presence of factors such as use of generative AI, attitudes towards generative AI, confidence, design fixation and perceived creativity playing a role in how generative AI impacts creativity. The aims of this thesis were to investigate the impact of generative AI on creativity by seeing how it affects creativity, alongside how the above factors correlate with creativity and generative AI. Our two experiments were chosen because of how they address gaps in the literature and have real world implications. The first experiment investigated generative AI’s impact on brainstorming by examining the categories of originality, flexibility, fluency and elaboration, alongside investigating the correlations between use of generative AI, attitudes towards generative AI, confidence, design fixation and perceived creativity with creativity and generative AI use. Our results revealed that generative AI use significantly improved performance in all four categories when compared to the non-AI group. Perceived creativity was also correlated with all creativity categories. Our second experiment expanded on this by examining generative AI’s impact on creativity when scored as originality and semantic distance, alongside heart rate and heart rate variability via the Divergent Associations Task. We also continued to examine how generative AI use, attitudes towards generative AI, confidence, design fixation and perceived creativity correlated with creativity and generative AI use. We found a significant difference between all groups for originality. There was no significant difference for semantic distance, heart rate, and heart rate variability. Generative AI use and attitudes towards generative AI also correlated with semantic distance. These results suggest that overall, generative AI does have an impact on creativity, but this impact is changed depending on the type of examination used. Underlying factor structures and correlations also play a role in how generative AI influences creativity. Due to there being 4 novel elements in this study, further research is required.
+
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Completed at Te Herenga Waka – Victoria University of Wellington for a Master of Science degree. The research evaluated undergraduate psychology students (PSYC201) and community participants across two distinct experimental studies.
+- **Core Research Objective:** To investigate how Generative AI impacts human creativity across two different creative task paradigms (a complex brainstorming task and an atomic word association task) while examining mediating factors like user attitudes, usage frequency, confidence, design fixation, perceived creativity, and physiological arousal (heart rate and heart rate variability).
+
+**2. Specific Role & Technical Design of AI**
+
+- **Experiment 1 (Cogniti.ai Socratic Brainstorming Agent):**
+    - Participants (_n_ = 120 analyzed) completed a 10-minute brainstorming exercise on _"Psychedelics and Brain Function"_.
+    - The experimental group used a custom AI agent built on **Cogniti.ai** powered by **GPT-4**.
+    - System instructions configured the agent to provide 3–5 narrowed research topic directions connecting neurobiology and psychology, maintain academic tone, and explicitly prohibit writing essays, providing citations, revealing experimental hypotheses, or detailing illegal drug synthesis/dosing. The control group used standard web searches (e.g., PubMed, Google Scholar).
+- **Experiment 2 (Divergent Associations Task & AI-Alone Condition):**
+    - Participants (_n_ = 50) completed the Divergent Associations Task (DAT) to generate 10 dissimilar nouns within 4 minutes.
+    - Evaluated three conditions: **Human-Alone** (control), **AI-Augmented Human** (using ChatGPT), and an **AI-Alone** condition where ChatGPT (v5.2 / GPT-4) was prompted 50 individual times in fresh sessions without conversational memory.
+- **Physiological Monitoring:** Sympathetic and parasympathetic nervous system arousal was continuously recorded via 3-lead ECG using an ADInstruments PowerLab system, measuring average Heart Rate (BPM) and Heart Rate Variability via RMSSD.
+
+**3. Key Findings on the Role and Impact of AI**
+
+**A. Experiment 1: AI Significantly Enhances Complex Brainstorming**
+
+- **Outperformance Across All Metrics:** Multivariate analysis (MANOVA) revealed that the AI-augmented group significantly outperformed the web-search control group across all four evaluation categories (_p_ < .001):
+    - **Originality (Rareness):** AI _M_ = 3.26 vs. Non-AI _M_ = 1.14 (_F_ = 47.48).
+    - **Flexibility (Category Diversity):** AI _M_ = 7.15 vs. Non-AI _M_ = 4.36 (_F_ = 47.30).
+    - **Fluency (Response Volume):** AI _M_ = 5.36 vs. Non-AI _M_ = 4.12 (_F_ = 18.42).
+    - **Elaboration (Word Detail):** AI _M_ = 35.29 vs. Non-AI _M_ = 26.02 (_F_ = 13.98).
+- **Single Underlying Creativity Factor:** Exploratory Factor Analysis (EFA) demonstrated that all four brainstorming metrics loaded onto a single underlying factor explaining **67.05% of total variance**.
+
+**B. Experiment 2: AI Constrains Atomic Divergent Thinking (DAT)**
+
+- **Reversal of Originality Gains:** In the single-word association task, Welch's ANOVA revealed a significant condition effect (_F_ = 247.81, _p_ < .001). Post-hoc Games-Howell tests showed that **Non-AI Humans achieved the highest Originality** (_M_ = 11.92), outperforming **AI-Augmented Humans** (_M_ = 10.96), while **AI-Alone performed the worst** (_M_ = 6.96).
+- **Algorithmic Repetitiveness:** In the AI-alone condition, ChatGPT repeatedly generated common, statistically probable words across separate sessions (e.g., the word _"stone"_ appeared in 27 out of 50 independent sessions).
+- **No Difference in Semantic Distance or Physiology:** Semantic distance (calculated objectively via WordNet's Jiang-Conrath method) showed no statistically significant differences across groups (_p_ = .266). Furthermore, AI use caused **no significant physiological stress shifts** in Heart Rate (_p_ = .789) or Heart Rate Variability (_p_ = .091) compared to human-alone task execution.
+
+**C. External Factors & Correlations**
+
+- **Attitudes & Semantic Distance:** Frequent usage of Generative AI (_r_ = .29, _p_ < .05) and positive attitudes toward AI (_r_ = .32, _p_ < .05) correlated positively with semantic distance scores during the DAT, suggesting that positive orientation encourages broader exploratory word selection.
+- **Perceived vs. Actual Creativity:** In Experiment 1, perceived elaboration (_r_ = .28 to .35) and perceived flexibility (_r_ = .19 to .34) positively correlated with objective experimenter-coded creativity scores.
+
+**4. Qualitative Nuances & Theoretical Implications**
+
+- **Task-Dependent Paradigm Split:** Generative AI acts as a powerful creative co-pilot during complex, elaborative brainstorming by providing structural range and contextual depth. However, for simple divergent thinking tasks requiring highly unique single-word associations, AI hurts human performance because LLMs are statistically optimized to predict conventional, highly probable next words.
+- **No Physiological Frustration Penalty:** Unlike earlier programming or gaming studies where AI tools increased user stress, using conversational AI for brief creative tasks did not alter heart rate or parasympathetic tone.
+
+[Full paper ](https://andrewlensen.com/assets/students/marie-katsanos-thesis.pdf)
