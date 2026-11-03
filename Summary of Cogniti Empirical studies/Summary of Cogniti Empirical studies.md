@@ -117,11 +117,40 @@ In this paper we share the findings from our pilot study evaluating the use of a
 [Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
 
 # Teaching approaches/Techniques, e.g. active learning, flipped, etc
+
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
 
 Abstract:
-
 This paper explores how Scenario Based Learning \[SBL\] can be co-designed with students to teach social engineering concepts in Information Systems using AI chatbots incorporating role-play and storytelling. By leveraging the engaging nature of role-play and storytelling, the study aims to demonstrate how AI-driven narratives can enhance learning experiences and enable an understanding of social engineering tactics. This research focuses on developing and implementing an AI chatbot to create interactive stories illustrating social engineering scenarios. Using a design thinking methodology with co-creation, this paper evaluates the development of this novel educational tool. The study provides guidelines on how storytelling via AI chatbots can captivate learners and potentially enhance student comprehension and retention of complex concepts.
+
+**1. Context & Research Objective**
+
+- **Setting & Cohort:** Conducted in the Discipline of Business Information Systems at The University of Sydney Business School.
+- **Core Problem:** Teaching social engineering and information security concepts effectively is challenging, as traditional lecture methods often fail to convey the subtle psychological tactics, rapport-building, and emotional manipulation used by cybercriminals.
+- **Research Objective:** To investigate how Scenario-Based Learning (SBL) can be co-designed with students using an AI chatbot incorporating role-play and storytelling to enhance understanding of social engineering concepts.
+
+**2. Specific Role & Technical Design of AI**
+
+- **Platform & Model:** Built on the **Cogniti.ai** platform utilizing **GPT-4 Turbo** hosted on Microsoft Azure via the University of Sydney.
+- **Double Diamond Design Framework:** Applied the UK Design Council's Double Diamond methodology (Discover, Define, Develop, Deliver) to co-create the AI storytelling tool iteratively with students across two evaluation cycles.
+- **Simulated Corporate Persona ("Peter Sherman"):** In the refined iteration (Evaluation 2), the chatbot was programmed as Peter Sherman, an accounts manager at "NextaWatt" (a Sydney-based energy company) who is relaxed, enjoys travel and sports, and holds confidential details (password, username, internal IP, personal address).
+- **Role-Reversal Simulation:** Students acted as "bad actors" (e.g., impersonating internal IT support) attempting to socially engineer the AI into sharing sensitive credentials or installing remote access software (e.g., GoToMeeting or Microsoft Remote Desktop).
+- **Teachable Moments & Dynamic Barometer:** The system prompt instructed the agent to provide feedback every 3 to 5 interactions detailing its current rapport level, the likelihood of sharing sensitive data, and a summary of how the student's tactics impact NextaWatt's data governance.
+
+**3. Key Findings on the Role and Impact of AI**
+
+- **Three Student Engagement Strategies:** Analysis of dialogue logs revealed that students interacted with the chatbot using three distinct conversational approaches:
+    1. _Friendly and Casual:_ Building rapport through greetings, shared sports interests, and vacation topics.
+    2. _Concerned and Helpful:_ Impersonating IT support attempting to resolve technical issues, unexpected network traffic, or compromised accounts.
+    3. _Suspicious and Threatening:_ Attempting aggressive or pressure-based tactics, which triggered the AI's safety guardrail to terminate the call.
+- **Enhanced Conceptual Awareness:** The inclusion of real-time rapport barometers and data governance feedback converted the roleplay into an active learning experience, helping students observe how conversational trust directly enables security breaches.
+- **Student Reflections:** Following the simulation, students posted their chat outcomes on discussion forums and submitted reflections analyzing the effectiveness of their social engineering tactics.
+
+**4. Qualitative Nuances & Implementation Insights**
+
+- **Value of Co-Design (MVP vs. Refined Agent):** The initial Minimum Viable Product (Evaluation 1) offered a basic friendly interaction without formative feedback; student feedback directly drove the redesign in Evaluation 2 to incorporate automated feedback barometers and security boundaries.
+- **Ethical Safeguards & Disclaimers:** The system incorporated privacy disclaimers explicitly instructing students not to enter personal or sensitive information, ensured data compliance via Cogniti's Azure hosting, and established guardrails to prevent the AI from generating harmful content.
+- **Limitations & Future Work:** The study presented a design science implementation case study; the author noted that formal comparative testing against traditional content delivery methods is required in subsequent project phases to quantify learning gains.
 
 [Full paper](https://aisel.aisnet.org/siged2024/10/)
 
