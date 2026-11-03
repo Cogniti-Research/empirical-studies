@@ -292,7 +292,7 @@ The study deliberately frames AI **not as an automated grading machine or teache
 
 [Full paper ](https://www.emerald.com/jwam/article/doi/10.1108/JWAM-03-2026-0062/1386017)
 
-## Macnaught, L. (2025). _Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics_
+### Macnaught, L. (2025). _Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics_
 
 This study evaluates the design and classroom integration of custom Generative AI agents grounded in Systemic Functional Linguistics (SFL) to support academic writing development. Implemented in a graduate-entry Master of Nursing Science program, the intervention sought to establish metalinguistic continuity between classroom workshops, online learning materials, and AI-generated formative feedback for students writing research proposals.
 
