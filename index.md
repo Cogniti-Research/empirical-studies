@@ -6,7 +6,7 @@ description: Published empirical studies on how educators use Cogniti AI agents 
 ---
 ## Summary of studies 
 
-- [Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)](Educator-designed%20generative%20AI%20agents%20in%20education:%20A%20synthesis%20of%20empirical%20Cogniti%20AI%20evidence%20(2024–2026))
+- [Educator-designed generative AI agents in education: A synthesis of empirical Cogniti AI evidence (2024–2026)](summary/#educator-designed-generative-ai-agents-in-education-a-synthesis-of-empirical-cogniti-ai-evidence-20242026-2024)
 
 ## Admin use
 
@@ -30,8 +30,8 @@ Agents that guide students through reflective writing and self-assessment.
 
 - [An on-demand solution for scalable reflective tutoring using customised AI agents](summary/#chanane-2025)
   Chanane & Kuo (2025) · AAEE 2025
-- [Harnessing Generative Ai For Cultural Competence Training: Exploring The Possibilities.](HARNESSING%20GENERATIVE%20AI%20FOR%20CULTURAL%20COMPETENCE%20TRAINING:%20EXPLORING%20THE%20POSSIBILITIES.)
-  McHugh, Amy & Şahin, Elif. (2026). Teaching approaches/Techniques, e.g. active learning, flipped, etc.
+- [Harnessing Generative AI For Cultural Competence Training: Exploring The Possibilities](summary/#mchugh-2026)
+  McHugh & Şahin (2026)
 
 ## Teaching approaches and techniques
 
@@ -54,8 +54,8 @@ AI-assisted marking and feedback for large cohorts, and how AI and human judgeme
   Huynh, van den Berg, Pozza & Van Ogtrop (2024) · ACSME 2024
 - [Hand in hand: designing and integrating human and AI-generated feedback in business education](summary/#vallis-2026)
   Vallis, Huber, Sun & Bryant (2026) · Journal of Work-Applied Management
-- [Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics](Designing%20AI%20agents%20for%20writing%20development:%20Anticipating%20semiotic%20mediation%20with%20the%20theoretical%20architecture%20of%20Systemic%20Functional%20Linguistics)
-  Macnaught, L. (2025). 
+- [Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics](summary/#macnaught-2025)
+  Macnaught (2025)
 
 ## Student reactions
 
