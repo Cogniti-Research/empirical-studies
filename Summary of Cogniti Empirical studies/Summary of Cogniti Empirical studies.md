@@ -101,7 +101,7 @@ This work demonstrates that AI tools such as Cogniti can be used to develop agen
 
 [Full paper](https://openrepository.aut.ac.nz/items/beb56fa1-1011-4600-b78f-2182a926f238)
 
-## McHugh, Amy & Şahin, Elif. (2026). HARNESSING GENERATIVE AI FOR CULTURAL COMPETENCE TRAINING: EXPLORING THE POSSIBILITIES. Teaching approaches/Techniques, e.g. active learning, flipped, etc.
+## McHugh, Amy & Şahin, Elif. (2026). HARNESSING GENERATIVE AI FOR CULTURAL COMPETENCE TRAINING: EXPLORING THE POSSIBILITIES.
 
 **Abstract:**
 In this paper we share the findings from our pilot study evaluating the use of a generative AI agent designed to support users in exploring and deepening their understanding of racism and anti-racism. Our research question investigates whether such an agent can help mitigate some of the interpersonal and emotional challenges that often arise in anti-racism education. By offering a low-stakes, non- human interlocutor, the agent enables engagement with sensitive topics that individuals may otherwise avoid. In doing so, this research contributes to emerging scholarship on the role of AI in improving our uniquely human intelligence. This innovative application of AI is timely as the existing literature tends to examine AI applications related to productivity enhancement and content generation.
@@ -116,14 +116,14 @@ In this paper we share the findings from our pilot study evaluating the use of a
 
 [Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
 
+# Teaching approaches/Techniques, e.g. active learning, flipped, etc
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
 
 Abstract:
 
 This paper explores how Scenario Based Learning \[SBL\] can be co-designed with students to teach social engineering concepts in Information Systems using AI chatbots incorporating role-play and storytelling. By leveraging the engaging nature of role-play and storytelling, the study aims to demonstrate how AI-driven narratives can enhance learning experiences and enable an understanding of social engineering tactics. This research focuses on developing and implementing an AI chatbot to create interactive stories illustrating social engineering scenarios. Using a design thinking methodology with co-creation, this paper evaluates the development of this novel educational tool. The study provides guidelines on how storytelling via AI chatbots can captivate learners and potentially enhance student comprehension and retention of complex concepts.
 
-**AI Use/Findings:**
-
+[Full paper](https://aisel.aisnet.org/siged2024/10/)
 
 ### Naeyaert, P. J., Scarratt, L. R., Murphy, T., & Pullen, R. (2025). Think–Pair–Chatbot–Share: AI-Facilitated Peer Learning in Chemistry. _Journal of Chemical Education_, _102_(9), 3936-3944.
 
@@ -169,7 +169,28 @@ Educators play a crucial role in a student’s learning journey by providing ass
 
 _Note: Cogniti is not explicitly mentioned in the paper, but it was used by the researchers, and the paper was shared with us by one of the authors of this study_
 
-Abstract Purpose – This paper aims to investigate how written assessments can be redesigned to foreground human connection within generative artificial intelligence (GenAI)-enabled feedback processes, examining how relational feedback practices operate in artificial intelligence (AI)-augmented environments through two case studies in a large Australian business school. Design/methodology/approach – Using an exploratory multiple-case study design, the study draws on focus groups, student surveys and teaching team feedback across two units. Data were analysed deductively through the lenses of relational pedagogy and a relational GenAI integration framework. Findings – Students engaged selectively with human and GenAI feedback, combining sources according to need and confidence. Effective integration depended on relational design elements including scaffolding, emotional engagement and co-design. GenAI was most effective as a complement to human judgement within structured, relationally grounded feedback systems. Originality/value – This paper provides an empirically grounded account of relational feedback practices in AI-augmented assessment
+Abstract Purpose – This paper aims to investigate how written assessments can be redesigned to foreground human connection within generative artificial intelligence (GenAI)-enabled feedback processes, examining how relational feedback practices operate in artificial intelligence (AI)-augmented environments through two case studies in a large Australian business school. Design/methodology/approach – Using an exploratory multiple-case study design, the study draws on focus groups, student surveys and teaching team feedback across two units. Data were analysed deductively through the lenses of relational pedagogy and a relational GenAI integration framework. Findings – Students engaged selectively with human and GenAI feedback, combining sources according to need and confidence. Effective integration depended on relational design elements including scaffolding, emotional engagement and co-design. GenAI was most effective as a complement to human judgement within structured, relationally grounded feedback systems. Originality/value – This paper provides an empirically grounded account of relational feedback practices in AI-augmented assessment. 
+
+## Macnaught, L. (2025). _Designing AI agents for writing development: Anticipating semiotic mediation with the theoretical architecture of Systemic Functional Linguistics_
+
+This study evaluates the design and classroom integration of custom Generative AI agents grounded in Systemic Functional Linguistics (SFL) to support academic writing development. Implemented in a graduate-entry Master of Nursing Science program, the intervention sought to establish metalinguistic continuity between classroom workshops, online learning materials, and AI-generated formative feedback for students writing research proposals.
+
+**Methods & Implementation**
+
+- **Setting & Cohort:** Embedded into a compulsory research design course featuring a cohort of **27 students**. Students submitted proposal drafts across **six formative milestone checkpoints** over a three-month timeline.
+- **Intervention Tools:** Two custom chatbots were constructed using the Cogniti platform, utilizing system messages and Retrieval-Augmented Generation (RAG) mapped to SFL's 4x4 metalanguage framework:
+
+1. Abstract Assistant: Evaluated whole-text abstract structure (e.g., Research Aim, Problem/Issue, Methodology, Significance).
+2. Claims and Evidence Checker: Evaluated paragraph-level argument cohesion and authorial claim consolidation.
+
+- **Data Sources:** Empirical observations were drawn from student conversation logs submitted as part of compulsory course requirements.
+
+**Key Empirical Findings**
+
+- **Metalinguistic Alignment:** Prompt architectures incorporating explicit feature definitions, exemplars, and targeted guiding questions successfully generated feedback messages using the same metalanguage taught in face-to-face workshops.
+- **The "Accuracy Paradox":** When students submitted drafts that were severely disorganized or deviated significantly from the structural exemplars built into the agent's system message and resources, the AI agent struggled to analyze the text accurately. This is partially due to a strict agent design. The system message explicitly instructs the agent to classify student text into specific structural parts (such as authorial claims or specific evidence) and indicate whether those parts are present, missing, or incomplete. When a draft is severely disorganized and bears little resemblance to the provided exemplars, the prompt's categorization framework forces the agent to try to map the text to those categories anyway.
+
+The implication is a more nuanced prompt design in the future.
 
 ## Student reactions
 
