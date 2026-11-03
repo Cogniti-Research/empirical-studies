@@ -116,7 +116,7 @@ In this paper we share the findings from our pilot study evaluating the use of a
 
 [Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
 
-# Teaching approaches/Techniques, e.g. active learning, flipped, etc
+## Teaching approaches/Techniques, e.g. active learning, flipped, etc
 
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
 
