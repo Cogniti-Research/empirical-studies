@@ -77,13 +77,6 @@ Course content support and virtual patient role-plays in health and related disc
 - [Personalised learning for nursing education with Gen-AI chatbots](summary/#mathews-2025)
   Mathews, Adams & Cheyne (2025) · Nursing Praxis in Aotearoa New Zealand
 
-## STEM
-
-Developing higher-order thinking in programming education.
-
-- [Using a custom AI chatbot platform to foster higher-order cognitive thinking in programming education](summary/#otemis-2025)
-  Otemis & Caiko (2025) · IEEE RTUCON 2025
-
 ## Arts
 
 A Socratic tutor in a conservatory musicology course.

@@ -551,46 +551,7 @@ Nursing education is being transformed with the increasing availability of a ran
 
 [Full paper ](https://www.nursingpraxis.org/article/151665-personalised-learning-for-nursing-education-with-gen-ai-chatbots)
 
-## STEM
-
-### Otemis, M. B., & Caiko, J. (2025). Using a custom AI chatbot platform to foster higher-order cognitive thinking in programming education. In _Proceedings of the 2025 IEEE 66th International Scientific Conference on Power and Electrical Engineering of Riga Technical University (RTUCON)_ (pp. 1–6). IEEE.
-
-**Abstract:**
-
-This article explores the potential for developing higher-order cognitive thinking in learners through the strategic teaching of programming languages. It demonstrates that such cognitive growth can be fostered and structured through the use of a custom-designed educational platform integrated with an AI-powered chatbot. This approach enables a gradual and measurable enhancement of cognitive skills while providing real-time assessment of students’ cognitive levels. Traditionally, identifying cognitive development required extensive manual coding and long-term research. However, by leveraging artificial intelligence capabilities alongside Bloom’s Taxonomy, this study introduces a method for automatically assessing learners’ cognitive levels in parallel with improving their programming proficiency. The findings offer instructors actionable insights into student performance and the opportunity to adjust teaching strategies accordingly. The paper also discusses practical applications and advantages of incorporating AI chatbots into the learning process.
-
-**1. Context & Research Objective**
-
-- **Setting & Cohort:** Implemented during the 2023–2024 academic year at the Y. Altynsarin Binom School Lyceum in Astana, Kazakhstan, involving **96 seventh-grade students** enrolled in a year-long elective Python programming course.
-- **Core Problem:** Traditional programming instruction frequently focuses on basic syntax memorization, while manually evaluating student code to track higher-order cognitive development is labor-intensive for teachers. Furthermore, standard conversational AI tools risk fostering passive learning if students simply use them to generate completed code rather than developing independent problem-solving skills.
-- **Research Objective:** To evaluate whether integrating a custom AI chatbot alongside an in-browser code compiler within a digital learning environment can cultivate and automatically measure students' higher-order cognitive thinking based on Bloom's Taxonomy.
-
-**2. Specific Role & Technical Design of AI**
-
-- **Dual System Architecture:** The learning environment combines an LLM-based chatbot module directly with an interactive in-browser Python compiler. This allows students to receive conversational guidance while immediately executing, testing, and debugging their code within the same interface.
-- **Socratic Prompting & Fine-Tuning:** The chatbot is fine-tuned on a specialized pedagogical dataset to prevent it from providing direct code answers. Instead, it poses leading, Bloom's Taxonomy-aligned questions, guides logical reasoning, explains error causes, and delivers motivational encouragement.
-- **Bloom's Taxonomy Progression:** Course tasks are structured across three adapted cognitive tiers:
-    1. _Lower-Order Skills (Remembering & Understanding):_ Recalling basic syntax and explaining command functions.
-    2. _Mid-Level Skills (Application & Analysis):_ Solving standard coding problems and independently identifying logical bugs.
-    3. _Higher-Order Skills (Evaluation & Synthesis/Creation):_ Evaluating algorithmic efficiency and creating original coding solutions for project-based tasks.
-- **Automated Analytics & Teacher Diagnostics:** The system automatically logs all code attempts (including incorrect runs) and chatbot interactions. This gives instructors real-time diagnostic reports showing each student's cognitive level and specific conceptual weaknesses.
-
-**3. Key Findings on the Role and Impact of AI**
-
-- **Controlled Experimental Design:** Students were randomly divided into an **Experimental Group (****n** **= 48)** using the AI-enhanced learning environment and a **Control Group (****n** **= 48)** taught via traditional curriculum methods without AI or digital compiler support.
-- **Doubling of Higher-Order Skill Attainment:** On the post-course assessment, the proportion of students in the Experimental Group demonstrating higher-order cognitive skills nearly doubled from 25.0% at baseline to **45.8%**, while the proportion classified in the lower-order tier was halved from 25.0% down to **12.5%**. In contrast, higher-order skill attainment in the control group remained flat at **25.0%**.
-- **Statistically Significant Discrepancies & Massive Effect Size:** Comparing post-course scores across cognitive tiers demonstrated that the AI-supported group significantly outperformed the control group [30–33]:
-    - _Lower-Order Skills:_ Experimental _M_ = 88.5% (_SD_ = 7.0) vs. Control _M_ = 80.0% (_SD_ = 8.5) (_p_ < 0.01, _t_ = 3.10, Cohen's _d_ = 0.94).
-    - _Mid-Level Skills:_ Experimental _M_ = 75.0% (_SD_ = 10.0) vs. Control _M_ = 65.0% (_SD_ = 11.5) (_p_ < 0.0001, _t_ = 4.50, Cohen's _d_ = 0.92).
-    - _Higher-Order Skills:_ Experimental _M_ = 70.5% (_SD_ = 9.2) vs. Control _M_ = 50.0% (_SD_ = 11.0) (_p_ < 0.0001, _t_ = 9.25, Cohen's _d_ = 2.02). The Cohen's _d_ value of **2.02** represents an exceptionally large practical effect.
-
-**4. Qualitative Nuances & Pedagogical Insights**
-
-- **Mitigating AI Dependency Through Hands-On Coding:** By requiring students to execute and test their code in the built-in compiler immediately after receiving conversational hints, the system prevents passive copy-pasting and encourages active debugging.
-- **Real-Time Pedagogical Adaptation:** Rather than waiting for end-of-term exams or conducting time-consuming manual code reviews, teachers utilized the diagnostic analytics to identify learning gaps and adjust classroom instruction in real time.
-- **Collaborative & Motivational Benefits:** In addition to individual problem-solving, the system supported peer collaboration and offered continuous motivational feedback that sustained student engagement throughout the year
-
-[Full paper ](https://ieeexplore.ieee.org/abstract/document/11415105?casa_token=P0VM66KG0okAAAAA:g8_hIUDxby-bhyTTsXP7nOoDt1qWXEhJZE1VUsTHJ5t0ahJJslLoWi3-WkK7hEcUipt_2A)
+)
 
 ## ARTS
 
